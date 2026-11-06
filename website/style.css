@@ -1,0 +1,6 @@
+body { margin: 0; padding: 32px; background: #f7f7f7; color: #222; font-family: system-ui, sans-serif; }
+main { max-width: 640px; margin: 12vh auto; padding: 32px; background: white; border: 1px solid #ddd; border-radius: 12px; }
+h1 { line-height: 1.4; }
+button { padding: 12px 20px; border: 0; border-radius: 6px; background: #222; color: white; font: inherit; cursor: pointer; }
+button:focus-visible { outline: 3px solid #2362ce; outline-offset: 3px; }
+@media (max-width: 480px) { body { padding: 16px; } main { margin: 32px auto; padding: 24px; } }
